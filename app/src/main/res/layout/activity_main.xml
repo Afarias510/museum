@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="202dp"
+        android:layout_height="54dp"
+        android:text="Traditions"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="36dp"
+        android:onClick="openTraditionsActivity"/>
+
+    <TextView
+
+        android:layout_width="204dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:text="Singers"
+        android:textColor="@android:color/white"
+        android:textSize="36dp"
+        android:onClick="openSingersActivity"/>
+
+    <TextView
+        android:layout_width="202dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:text="Landmarks"
+        android:textColor="@android:color/white"
+        android:textSize="36dp"
+        android:onClick="openLandmarksActivity"
+         />
+
+    <TextView
+
+        android:layout_width="214dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:text="Merchandise"
+        android:textColor="@android:color/white"
+        android:textSize="36dp" />
+
+</LinearLayout>
